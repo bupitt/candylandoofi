@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+   min-height: auto;
+   background-image: url(fonndo.jpg); 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(250, 226, 243);
+    color: rgb(12, 11, 11);
+    padding: 20px 30px;
+  }
+  
+  .logo {
+    font-size: 23;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    
+    padding: 15px;
+    margin-top: 15px;
+}
+  .tools a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 10px;
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+}
+
